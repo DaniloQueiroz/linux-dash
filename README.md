@@ -1,4 +1,6 @@
-# linux-dash (Beta)
+# linux-dash-py
+
+This is a fork from [**Linux-Dash](https://github.com/afaqurk/linux-dash) using **python** instead of *PHP*.
 
 A low-overhead monitoring web dashboard for a GNU/Linux machine. Simply drop-in
 the app and go!
