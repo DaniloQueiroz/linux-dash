@@ -1,6 +1,9 @@
 from flask import Flask
 from flask.templating import render_template
+from linux_info import linux_info_api
+
 app = Flask(__name__)
+app.register_blueprint(linux_info_api, url_prefix='/api')
 
 
 @app.route('/')
@@ -9,4 +12,4 @@ def dashboard():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)

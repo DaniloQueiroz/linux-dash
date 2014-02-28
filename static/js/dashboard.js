@@ -283,10 +283,10 @@ dashboard.getWhereIs = function () {
 }
 
 dashboard.getOs = function () {
-    generate_os_data("sh/issue.php", "#os-info");
-    generate_os_data("sh/hostname.php", "#os-hostname");
-    generate_os_data("sh/time.php", "#os-time");
-    generate_os_data("sh/uptime.php", "#os-uptime");
+    generate_os_data("/api/os_info", "#os-info");
+    generate_os_data("/api/hostname", "#os-hostname");
+    generate_os_data("/api/current_time", "#os-time");
+    generate_os_data("/api/uptime", "#os-uptime");
 }
 
 dashboard.getIp = function () {
