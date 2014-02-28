@@ -283,9 +283,9 @@ dashboard.getWhereIs = function () {
 }
 
 dashboard.getOs = function () {
-    generate_os_data("/api/os_info", "#os-info");
+    generate_os_data("/api/os-info", "#os-info");
     generate_os_data("/api/hostname", "#os-hostname");
-    generate_os_data("/api/current_time", "#os-time");
+    generate_os_data("/api/current-time", "#os-time");
     generate_os_data("/api/uptime", "#os-uptime");
 }
 
