@@ -7,4 +7,4 @@ using **python** instead of *PHP*.
 * [Dashboard Template](http://www.egrappler.com/templatevamp-free-twitter-bootstrap-admin-template/)
 * [Bootstrap](http://getbootstrap.com)
 * [Font Awesome](http://fontawesome.io/)
-* Original [Linux-Dash by Afaqurk](https://github.com/afaqurk/linux-dash)
+* Original [Linux-Dash by Afaq Tariq.](https://github.com/afaqurk/linux-dash)
